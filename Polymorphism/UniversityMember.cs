@@ -36,4 +36,5 @@ public abstract class UniversityMember
             throw new InvalidOperationException("Daily action limit (5) has been reached.");
     }
 
+    public int TotalActions => ActionLog.Count;
 }
