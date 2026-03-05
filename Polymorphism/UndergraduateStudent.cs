@@ -9,4 +9,5 @@ public class UndergraduateStudent : UniversityMember
         base.PerformDuties();
         ActionLog.Add("Lab work completed");
     }
+    
 }
